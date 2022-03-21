@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-q4a3xbp7d88w2v$d6j^5u)7*($#8ko2zh*)e7hfh7_2snmioj9
 DEBUG = True
 
 # ALLOWED_HOSTS = []
-ALLOWED_HOSTS = ['fathomless-escarpment-25304.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['bt-real-estate-02.herokuapp.com', '127.0.0.1', '0.0.0.0']
 
 
 # Application definition
