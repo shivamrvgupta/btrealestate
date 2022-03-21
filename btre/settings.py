@@ -81,15 +81,29 @@ TEMPLATES = [
 WSGI_APPLICATION = 'btre.wsgi.application'
 
 
-# Database
+# Database Heroku
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'd8b88k5ngggf6t',
+        'HOST': 'ec2-54-166-37-125.compute-1.amazonaws.com',
+        'PORT': 5432,
+        'USER': 'jsopuloyheawoi',
+        'PASSWORD': '658c3854628d1465d98af840ebbeb8e7f6c1b3ff40f51d31ef20d68958d2416c'
     }
 }
+
+# Database
+# https://docs.djangoproject.com/en/4.0/ref/settings/#databases
+
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
+#     }
+# }
 
 
 # Password validation
